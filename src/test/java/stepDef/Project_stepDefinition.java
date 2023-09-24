@@ -23,7 +23,7 @@ public class Project_stepDefinition
 	public void chrome_browser_got_launched()
 	{ 
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//driver/chromedriver.exe");
-		//System.setProperty("webdriver.chrome.driver", "E:\\seleniumdr\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","E:\\seleniumdr\\chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();	
 	       
 		driver= new ChromeDriver();
